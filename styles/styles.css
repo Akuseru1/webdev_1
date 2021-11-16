@@ -1,0 +1,113 @@
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css);
+
+body {
+background: radial-gradient(#fff, #fff, #fff, #eeddcf)
+}
+head {
+    display: inline-block
+}
+
+
+/* searchbar */
+
+.logo {
+    background: radial-gradient(#fff, #fff, #fff, #eeddcf);
+}
+
+.search {
+    width: 110%;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.searchTerm {
+    width: 70%;
+    border: 3px solid #dcba9e;
+    border-right: none;
+    padding: 15px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #877261;
+}
+
+.searchTerm:focus {
+    color: #877261;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #dcba9e;
+    background: #dcba9e;
+    text-align: center;
+    color: #322a24;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* end of searchbar */
+
+
+/* carousel */
+
+#key-carousel {
+  margin-left: 25%;
+  max-width: 50%;
+}
+
+.carousel-text {
+    color: black;
+}
+/* end of carousel */
+
+
+/* contact us */
+
+.contact-form {
+    margin-left: 35%;
+}
+.contact-form input, textarea {
+    width: 50% ;
+}
+
+.contact-form button {
+    margin-left:16%;
+    margin-top:2%;
+}
+
+
+
+/* end of contact us */
+
+
+/* footer */
+
+.footer {
+    color: #000000;
+    font-size: 14px;
+    padding: 10px 0 5px;
+}
+
+
+
+
+
+.footer-logo {
+    flex: 1;
+    padding-left: 22%;
+}
+
+
+
+.footer i {
+    font-size: 1.5rem;
+}
+.footer hr {
+    border-width: 1px;
+
+}
+
+/* endfooter */
